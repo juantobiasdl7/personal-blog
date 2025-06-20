@@ -1,13 +1,13 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import PersonalPhoto from '../assets/photo.jpeg';
 ---
 
 <Layout
 	title="About Me"
 	description="Lorem ipsum dolor sit amet"
 	pubDate={new Date('August 08 2021')}
-	heroImage={AboutHeroImage}
+	heroImage={PersonalPhoto}
 >
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -61,3 +61,25 @@ import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
 		proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
 	</p>
 </Layout>
+
+<style>
+	/* Estilos para que la imagen hero se vea como un avatar */
+	:global(.hero-image img) {
+		border-radius: 50% !important;
+		width: 550px !important;
+		height: 550px !important;
+		object-fit: cover;
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+		transition: transform 0.3s ease;
+	}
+
+	:global(.hero-image img:hover) {
+		transform: scale(1.05);
+	}
+
+	:global(.hero-image) {
+		display: flex;
+		justify-content: center;
+		margin: 2rem 0;
+	}
+</style>
