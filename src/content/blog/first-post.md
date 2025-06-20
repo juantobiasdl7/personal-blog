@@ -2,7 +2,7 @@
 title: 'A new idea in my mind'
 description: ''
 pubDate: 'Jun 19 2025'
-heroImage: '../../assets/image_one.png'
+heroImage: '../../assets/image_1.png'
 ---
 
 I’ve closed almost all of my social media accounts—no Facebook, no Instagram, no X. There’s just too much noise in the world.
