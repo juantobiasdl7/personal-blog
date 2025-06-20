@@ -101,17 +101,18 @@ import { SITE_TITLE } from '../consts';
 	}
 	@media (max-width: 720px) {
 		nav {
-			flex-direction: column;
-			gap: 1rem;
+			justify-content: space-between;
 		}
-		.left-section,
-		.center-section,
+		.left-section {
+			display: none;
+		}
+		.center-section {
+			flex: none;
+			justify-content: flex-start;
+		}
 		.right-section {
 			flex: none;
-		}
-		.center-section,
-		.right-section {
-			justify-content: center;
+			justify-content: flex-end;
 		}
 	}
 </style>
