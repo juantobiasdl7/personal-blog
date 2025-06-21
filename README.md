@@ -2,11 +2,11 @@
 
 A modern, minimalist personal blog built with Astro, featuring responsive design and optimized performance.
 
-## 🌟 About
+## About
 
 This is my personal blog where I share my thoughts on technology, mathematics, and projects I'm working on. Currently featuring posts about my journey studying mathematics and developing educational platforms like PhysicsAcademy.
 
-## ✨ Features
+## Features
 
 - ✅ Fast and lightweight with Astro
 - ✅ Responsive design optimized for all devices
@@ -16,7 +16,7 @@ This is my personal blog where I share my thoughts on technology, mathematics, a
 - ✅ Mobile-optimized navigation
 - ✅ Markdown support for blog posts
 
-## 🚀 Project Structure
+## Project Structure
 
 ```text
 ├── public/
@@ -36,14 +36,14 @@ This is my personal blog where I share my thoughts on technology, mathematics, a
 └── package.json
 ```
 
-## 🛠️ Built With
+## Built With
 
 - **[Astro](https://astro.build/)** - Static site generator
 - **TypeScript** - Type safety
 - **CSS** - Custom styling with responsive design
 - **Markdown** - Content creation
 
-## 🧞 Development Commands
+## Development Commands
 
 All commands are run from the root of the project:
 
@@ -55,12 +55,12 @@ All commands are run from the root of the project:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 
-## 🔗 Connect
+## Connect
 
 - **GitHub**: [juantobiasdl7](https://github.com/juantobiasdl7)
 - **LinkedIn**: [Tobías De La Cruz](https://www.linkedin.com/in/tob%C3%ADas/)
 
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
