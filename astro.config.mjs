@@ -6,5 +6,5 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://juantobiasdl7.github.io',
-	base: 'personal-blog',
+	base: 'personal-blog/',
 });
